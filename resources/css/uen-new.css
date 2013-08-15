@@ -1,0 +1,31 @@
+/*
+Hide footer and display branding, based on screen size
+*/
+@media (min-width:768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  #footer {
+    display: none;
+  }
+}
+
+.navbar-brand {
+  font-weight: lighter;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.branding {
+  text-align: center;
+  font-size: 2.0em;
+}
+
+.services {
+  text-align: center;
+}
