@@ -1,6 +1,5 @@
 /*
 Hide footer and display branding, based on screen size
-*/
 @media (min-width:768px) {
   .navbar-brand {
     display: none;
@@ -12,6 +11,11 @@ Hide footer and display branding, based on screen size
     display: none;
   }
 }
+*/
+
+.navbar {
+  background-color: rgba(240, 240, 240, 0.9);
+}
 
 .navbar-brand {
   font-weight: lighter;
@@ -21,11 +25,33 @@ body {
   font-family: "Open Sans";
 }
 
-.branding {
-  text-align: center;
-  font-size: 2.0em;
+.page-header {
+  font-size: 2.2em;
 }
 
-.services {
-  text-align: center;
+.project {
+  padding-bottom: 60px;
+}
+
+.project div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.project .title {
+  font-size: 1.4em;
+}
+
+.project img {
+  max-height:440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills p {
+  display: inline;
+  border-radius: 0.4em;
+  padding: 0.1em 0.3em;
+  color: #2980B9;
+  background-color: #d9edf7;
 }
