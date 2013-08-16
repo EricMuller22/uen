@@ -59,6 +59,10 @@ body {
   max-width: 95%;
 }
 
+.skills {
+  text-align: center;
+}
+
 .skills p {
   display: inline;
   border-radius: 0.4em;
