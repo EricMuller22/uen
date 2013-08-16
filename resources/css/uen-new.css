@@ -44,6 +44,7 @@ body {
 
 .project img {
   max-height:440px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
