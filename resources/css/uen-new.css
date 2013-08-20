@@ -23,7 +23,7 @@ Hide footer and display branding, based on screen size
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .page-header {
